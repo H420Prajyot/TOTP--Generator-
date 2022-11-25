@@ -1,1 +1,1 @@
-# TOTP--Generator-
+# TOTP-Generator
