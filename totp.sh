@@ -12,7 +12,7 @@
   printf "|`tput bold` %-40s `tput sgr0`    |\n" "$@"
   echo "+-----------------------------------------------+"
 }
-banner "${green}Develop by Akash,Piyush,Om and Prajyot"
+banner "Develop by Akash,Piyush,Om and Prajyot"
 
  echo ""
  echo ""
@@ -21,6 +21,8 @@ banner "${green}Develop by Akash,Piyush,Om and Prajyot"
 akash1() { 
 read -p "Enter the path of file : " path
 file=$(cat $path)
+
+echo $path > name.txt
 
 for (( ; ; ))
 do
@@ -34,6 +36,8 @@ done
 
 akash0() { 
 piyush0() {
+read -p "Give name for TOTP : " name
+echo $name > name.txt
 read -p "Enter Secret Key : " key
 for (( ; ; ))
 do
@@ -51,6 +55,7 @@ piyush1() {
 read -p "Give name for TOTP : " name
 read -p "Enter Secret Key : " key
 touch $name
+echo $name > name.txt
 echo $key > $name
 
 for (( ; ; ))
