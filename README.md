@@ -32,8 +32,10 @@ bash totp.sh
 58
 63
 65
-FROM totp.sh \n
----------------------------------AND---------------------------------------- 
+FROM totp.sh 
+
+---------------------------------AND----------------------------------------
+
 YOU HAVE TO PASTE YOUR DISCORD WEBHOOK IN webhook.py LINE NUMBER 3 
 FOR EXAMPLE :- 
 ```
