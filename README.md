@@ -21,3 +21,21 @@ git clone https://github.com/H420Prajyot/TOTP-Generator.git
 cd TOTP-Generator
 bash totp.sh
 ```
+NOTE :- TO GET TOTP ON DISCORD YOU HAVE TO UNCOMMENT THE LINE NUMBER 
+25
+29
+31
+39
+40
+44
+46
+58
+63
+65
+FROM totp.sh 
+---------------------------------AND---------------------------------------- 
+YOU HAVE TO PASTE YOUR DISCORD WEBHOOK IN webhook.py LINE NUMBER 3 
+FOR EXAMPLE :- 
+```
+url = "https://discordapp.com/api/webhooks/1048594207576881328/543q-JHeLdq6xE80f7DIJFOE02303U03JEIJFOIWEHFEIHF29R2OEFB29R22OFB294"
+```
