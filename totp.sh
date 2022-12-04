@@ -12,7 +12,7 @@
   printf "|`tput bold` %-40s `tput sgr0`    |\n" "$@"
   echo "+-----------------------------------------------+"
 }
-banner "Develop by Akash,Piyush,Om and Prajyot"
+banner "Develop by H420Prajyot"
 
  echo ""
  echo ""
