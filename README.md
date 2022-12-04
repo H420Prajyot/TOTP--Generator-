@@ -11,6 +11,11 @@ MinTOTP is a Python tool that can be used to generate TOTP values from a secret 
 
 
 # How To Use :- 
+1) download this repository
+2) open the directory
+3) run the bash script
+
+COPY PASTE THE COMMANDS
 ```
 git clone https://github.com/H420Prajyot/TOTP-Generator.git
 cd TOTP-Generator
