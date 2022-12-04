@@ -23,15 +23,15 @@ bash totp.sh
 ```
 # NOTE :- TO GET TOTP ON DISCORD 
 YOU HAVE TO UNCOMMENT THE LINE NUMBER 
-25
-29
-31
-39
-40
-44
-46
-58
-63
+25,
+29,
+31,
+39,
+40,
+44,
+46,
+58,
+63,
 65
 FROM totp.sh 
 
