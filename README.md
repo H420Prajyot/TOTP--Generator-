@@ -21,7 +21,7 @@ git clone https://github.com/H420Prajyot/TOTP-Generator.git
 cd TOTP-Generator
 bash totp.sh
 ```
-NOTE :- TO GET TOTP ON DISCORD YOU HAVE TO UNCOMMENT THE LINE NUMBER 
+# NOTE :- TO GET TOTP ON DISCORD YOU HAVE TO UNCOMMENT THE LINE NUMBER 
 25
 29
 31
@@ -32,7 +32,7 @@ NOTE :- TO GET TOTP ON DISCORD YOU HAVE TO UNCOMMENT THE LINE NUMBER
 58
 63
 65
-FROM totp.sh 
+FROM totp.sh \n
 ---------------------------------AND---------------------------------------- 
 YOU HAVE TO PASTE YOUR DISCORD WEBHOOK IN webhook.py LINE NUMBER 3 
 FOR EXAMPLE :- 
