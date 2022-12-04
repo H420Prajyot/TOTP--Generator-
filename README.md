@@ -11,7 +11,7 @@ MinTOTP is a Python tool that can be used to generate TOTP values from a secret 
 
 
 # How To Use :- 
-``` git clone https://github.com/H420Prajyot/TOTP-Generator.git
+```git clone https://github.com/H420Prajyot/TOTP-Generator.git
 cd TOTP-Generator
 bash totp.sh
 ```
