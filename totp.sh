@@ -22,13 +22,13 @@ akash1() {
 read -p "Enter the path of file : " path
 file=$(cat $path)
 
-echo $path > name.txt
+#echo $path > name.txt
 
 for (( ; ; ))
 do
-   python3 mintotp.py <<< $file > otp.txt
+  # python3 mintotp.py <<< $file > otp.txt
    python3 mintotp.py <<< $file
-   python3 webhook.py 
+   #python3 webhook.py 
    sleep 30
 done
 }
@@ -36,14 +36,14 @@ done
 
 akash0() { 
 piyush0() {
-read -p "Give name for TOTP : " name
-echo $name > name.txt
+#read -p "Give name for TOTP : " name
+#echo $name > name.txt
 read -p "Enter Secret Key : " key
 for (( ; ; ))
 do
-   python3 mintotp.py <<< $key > otp.txt
+   #python3 mintotp.py <<< $key > otp.txt
    python3 mintotp.py <<< $key
-   python3 webhook.py
+   #python3 webhook.py
    sleep 30
 done
 
@@ -55,14 +55,14 @@ piyush1() {
 read -p "Give name for TOTP : " name
 read -p "Enter Secret Key : " key
 touch $name
-echo $name > name.txt
+#echo $name > name.txt
 echo $key > $name
 
 for (( ; ; ))
 do
-   python3 mintotp.py <<< $key > otp.txt
+   #python3 mintotp.py <<< $key > otp.txt
    python3 mintotp.py <<< $key
-   python3 webhook.py
+   #python3 webhook.py
    sleep 30
 done
 
